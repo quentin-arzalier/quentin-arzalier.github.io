@@ -790,7 +790,7 @@ header .navbar .dropdown .dropdown-menu a {
 
 
 /* NEW CSS */
-.container{
+#firstContainer{
     display: flex;
     flex-direction: row;
     height: auto;
