@@ -564,15 +564,14 @@ header .navbar .dropdown .dropdown-menu a {
     opacity: .7;
 }
 
-.slider-slide[data-project=blogfish] .project-illustration { background-image: url('../images/blogfish_pres.webp'); }
-.slider-slide[data-project=cryptenger_web] .project-illustration { background-image: url('../images/cryptenger_alt.webp'); }
-.slider-slide[data-project=polycraft] .project-illustration { background-image: url('../images/polycraft_pres_alt.webp'); }
-.slider-slide[data-project=gamer] .project-illustration { background-image: url('../images/gamer_alt.webp'); }
-.slider-slide[data-project=diapason34] .project-illustration { background-image: url('../images/diapason_pres_alt.webp'); }
-.slider-slide[data-project=web_others] .project-illustration { background-image: url('../images/web_others_splashart_alt.webp'); }
+.slider-slide[data-project=bang] .project-illustration { background-image: url('../images/bang.jpg'); }
+.slider-slide[data-project=gravityDodge] .project-illustration { background-image: url('../images/cryptenger_alt.webp'); }
+.slider-slide[data-project=heartbeat] .project-illustration { background-image: url('../images/heartbeat.png'); }
+.slider-slide[data-project=goldenOdyssey] .project-illustration { background-image: url('../images/goldenOdyssey.png'); }
 
-.slider-slide[data-project=surfshark] .project-illustration { background-image: url('../images/surfshark_linux_client.svg'); }
+.slider-slide[data-project=analystesJoomla] .project-illustration { background-image: url('../images/analystesJoomla.png'); }
 .slider-slide[data-project=cryptenger] .project-illustration { background-image: url('../images/cryptenger_logo.webp'); }
+.slider-slide[data-project=stilexHuminex] .project-illustration { background-image: url('../images/stilexHuminex.jpg'); }
 
 
 /*** WEB PROJECT DETAILS ***/
