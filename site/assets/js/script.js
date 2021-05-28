@@ -80,28 +80,9 @@ new fullpage('#fullpage', {
 fullpage_api.setAllowScrolling(false);
 fullpage_api.setKeyboardScrolling(false);
 
-let icons = document.getElementById('about_icons').getElementsByClassName("parallaxed");
-for(let icon of icons) {
-    let fontSize = Math.floor((Math.random() * 20) + 30) / 10;
-    icon.style.fontSize = fontSize + "rem";
-    icon.style.zIndex = (fontSize * 10).toString();
-
-    icon.setAttribute("data-depth", (fontSize-3)/2*1.7+.4);
-}
-
-const aboutIcons = document.getElementById('about_icons');
-new Parallax(aboutIcons, {
-    frictionX: .25,
-    frictionY: .25,
-});
 
 
 window.addEventListener("load", function () {
-    for(let icon of icons) {
-        icon.style.top = Math.floor((Math.random() * 60) + 17) + "vh";
-        icon.style.left = Math.floor((Math.random() * 40) + 43) + "vw";
-    }
-
     let elStyle = document.getElementById('loader').style;
     elStyle.opacity = '0';
     setTimeout(() => {
