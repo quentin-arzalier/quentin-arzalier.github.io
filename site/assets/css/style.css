@@ -546,8 +546,8 @@ header .navbar .dropdown .dropdown-menu a {
 }
 
 
-/*** WEB PROJECTS ***/
-#web-projects #globe {
+/*** DEV PROJECTS ***/
+#dev-projects #globe {
     position: absolute;
     overflow: hidden;
     top: 0; left: 0;
@@ -555,7 +555,7 @@ header .navbar .dropdown .dropdown-menu a {
     height: 100%;
     z-index: 0;
 }
-#web-projects #globe img {
+#dev-projects #globe img {
     position: relative;
     width: 35vw;
     margin-left: 45vw;
@@ -574,7 +574,7 @@ header .navbar .dropdown .dropdown-menu a {
 .slider-slide[data-project=stilexHuminex] .project-illustration { background-image: url('../images/stilexHuminex_banner.png'); }
 
 
-/*** WEB PROJECT DETAILS ***/
+/*** DEV PROJECT DETAILS ***/
 #project-wrapper {
     text-align: center;
 }
@@ -643,8 +643,8 @@ header .navbar .dropdown .dropdown-menu a {
     font-weight: 300;
 }
 
-/*** APPLICATIONS ***/
-#applications-projects #software {
+/*** OTHER ***/
+#other-projects #software {
     position: absolute;
     overflow: hidden;
     top: 0; left: 0;
@@ -652,7 +652,7 @@ header .navbar .dropdown .dropdown-menu a {
     height: 100%;
     z-index: 0;
 }
-#applications-projects #software img {
+#other-projects #software img {
     position: relative;
     width: 35vw;
     margin-left: 20vw;
