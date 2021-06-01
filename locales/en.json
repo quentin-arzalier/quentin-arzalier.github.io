@@ -5,8 +5,8 @@
         "description": "Salutations, je suis Quentin, et bienvenue sur mon ePortFolio recensant mes divers projets!",
         "whatidid": "Qu'ai-je fait?",
         "whatwedid": "Qu'avons-nous fait?",
+        "general_idea": "Qu'ai-je appris de ce projet",
         "style_guide": "Charte Graphique",
-        "general_idea": "Idée générale",
         "colours": "Couleurs",
         "fonts": "Polices",
         "libraries": "Librairies",
@@ -21,9 +21,9 @@
         "terminal": "Le mot de la fin"
     },
     "links": {
-        "p_base": "",
-        "en_link": "",
-        "fr_link": "fr"
+        "p_base": "../",
+        "en_link": "../",
+        "fr_link": ""
     },
     "main": {
         "intro": "Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!",
@@ -41,10 +41,10 @@
             "joomla_desc": "C'est à l'aide du CMS Joomla que nous développons le site."
         },
         "bang": {
-            "short_desc": "",
-            "tldr": "",
-            "whatidid": "",
-            "general_idea": ""
+            "short_desc": "Un jeu de société basé sur des cartes",
+            "tldr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna.",
+            "whatidid": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo.",
+            "general_idea": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo."
         },
         "cryptenger": {
             "short_desc": "Une messagerie chiffrée",
@@ -70,27 +70,27 @@
         "gravityDodge": {
             "short_desc": "Un jeu mobile Free to Play",
             "tldr": "Gravity Dodge est mon premier projet Unity, j'ai expérimenté avec, et je compte le publier un jour.",
-            "whatidid": "",
-            "general_idea": ""
+            "whatidid": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna.",
+            "general_idea": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo."
         },
         "heartbeat": {
-            "short_desc": "Une extension pour le jeu Steam Hacknet.",
-            "tldr": "",
-            "whatidid": "",
-            "general_idea": ""
+            "short_desc": "Une extension pour le jeu Steam Hacknet troisième lauréat d'un concours",
+            "tldr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna.",
+            "whatwedid": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo.",
+            "general_idea": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo."
         },
         "goldenOdyssey": {
-            "short_desc": "Un jeu Unity gagnant de la 5e Code Game Jam.",
-            "tldr": "",
-            "whatidid": "",
-            "general_idea": ""
+            "short_desc": "Un jeu Unity gagnant de la 5e Code Game Jam",
+            "tldr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna.",
+            "whatidid": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo.",
+            "general_idea": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo."
         },
 
         "stilexHuminex": {
-            "short_desc": "Un site internet vendant un produit fictif.",
-            "tldr": "",
-            "whatidid": "",
-            "general_idea": ""
+            "short_desc": "Un site internet vendant un produit fictif",
+            "tldr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna.",
+            "whatidid": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo.",
+            "general_idea": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo."
         }
     }
 }

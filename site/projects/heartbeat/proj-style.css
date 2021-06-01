@@ -42,6 +42,23 @@
     margin: 0 1rem;
 }
 
+.cryptenger-links {
+     margin-top: 2rem;
+     display: flex;
+     justify-content: center;
+ }
+.cryptenger-links .link {
+    margin: 0 .75rem;
+}
+.cryptenger-links a i {
+    color: #222 !important;
+    font-size: 3rem;
+}
+.cryptenger-links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
 
 .style-guide-fonts .font.lato-font {
     font-family: 'Lato', sans-serif;
