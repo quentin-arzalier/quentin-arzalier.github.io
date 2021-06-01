@@ -1,145 +1,30 @@
-<html><head></head><body><div id="cryptenger">
-    <h1>Cryptenger</h1>
+<html><head></head><body><div id="stilexHuminex">
+    <h1>Stilex Huminex - Site Web</h1>
 
-    <div class="main-image" style="background-image: url('../assets/images/cryptenger_client.webp');"></div>
+    <div class="main-image" style="background-image: url('../assets/images/stilexHuminex.jpg');"></div>
 
     <div class="container">
         <div class="col-xl-3 col-lg-4 offset-lg-0 col-md-6 offset-md-3 tldr">
             <div class="tldr-container">
                 <h2>TL;DR</h2>
-                <p>Cryptenger est une messagerie chiffrée et légère. Son but est d'être une jolie application avec un serveur que tout le monde peu initialiser facilement.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna.</p>
             </div>
         </div>
 
         <h2>Qu'avons-nous fait?</h2>
-    <p class="col-lg-8 offset-lg-2">Au début ce projet était pour les cours, nous étions 3 amis, et nous voulious faire une messagerie complètement sécurisée, mais aussi facile d'utilisation que Discord ou WhatsApp. Pour la partie sécurisée nous voulions chiffrer les messages, mais parce qu'il est impossible de savoir si on est espionné par le serveur nous avons décidé de laisser la possibilité aux personnes d'initialiser leurs propres serveurs. Pour chiffrer les messages nous initialisons la connexion avec un chiffrement asymétrique puis échangeons la clé symétrique qui chiffrera et déchiffrera les messages suivants.</p>
+        <p class="col-lg-8 offset-lg-2">projects.stilexHuminex.whatwedid</p>
 
-        <div class="links cryptenger-links">
+        <div class="links heartbeat-links">
             <div class="link">
-                <a class="d-block" href="https://github.com/cryptenger/" target="_blank" rel="nofollow"><img class="svg" alt="Github" width="48" height="48" src="../assets/images/github.svg"></a>
-                <span>Github</span>
+                <a class="d-block" href="https://stilex-huminex.github.io/" target="_blank" rel="nofollow"><img alt="stilex" width="48" height="48" src="../assets/images/stilexLogo.png"></a>
+                <span>Le site</span>
             </div>
         </div>
     </div>
-
-    <div class="client-server style-guide">
+    <div class="competences">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 client-box">
-                    <h1 class="mb-5">Client</h1>
-                    <p>Le client est très simple, il y a un fenêtre de connextion puis ça envoie vers le server. Le server est divisé par channels.</p>
-
-                    <h2 class="mt-4">Charte Graphique</h2>
-                    <p>Nous avons tous donné nos idée pour la charte graphique générale et le logo a été fait par <a href="https://www.artstation.com/quentin_costagliola" target="_blank" rel="nofollow">Quentin</a>.</p>
-
-                    <h3>Couleurs</h3>
-                    <div class="style-guide-colours">
-                        <div class="colours">
-                            <div class="colour">
-                                <span class="colour-name">Blanc</span>
-                                <span class="colour-block" style="background-color: #fff;"></span>
-                                <span class="colour-hex">#ffffff</span>
-                            </div>
-
-                            <div class="colour">
-                                <span class="colour-name">Gris Foncé</span>
-                                <span class="colour-block" style="background-color: #262626;"></span>
-                                <span class="colour-hex">#262626</span>
-                            </div>
-
-                            <div class="colour">
-                                <span class="colour-name">Gris Sombre</span>
-                                <span class="colour-block" style="background-color: #3b3b3b;"></span>
-                                <span class="colour-hex">#3b3b3b</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h1 class="mb-5 server-title">Serveur</h1>
-                    <p>Le serveur est géré via un script python et configuré grâce à un fichier JSON. Une amélioration possible serait de faire un script plus proche des commandes Unix pour le gérer.</p>
-
-                    <h2 class="mt-4">Charte Graphique</h2>
-                    <p>C'est un script donc il n'y pas d'interface si ce n'est celle de votre terminal. ^^</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="libraries">
-        <div class="container">
-            <h2 class="mb-4">Librairies &amp; Langage</h2>
-
-            <div class="row justify-content-center">
-                <div class="col-sm-6 client-box">
-                    <h1 class="mb-4 d-block d-sm-none">Client</h1>
-                    <h3 class="mb-3"><img class="svg" alt="Python" width="70" height="70" src="../assets/images/python.svg"></h3>
-
-                    <p class="col-lg-8 offset-lg-2">Nous avons utilisé <b>Python</b>, qui est un plutôt bon langage pour des petits projets comme celui ci, mais nous étions également limité par les règles du projet.</p>
-
-                    <div class="links">
-                        <div class="link">
-                            <a class="d-block" href="https://www.python.org/" target="_blank" rel="nofollow"><i class="fas fa-link"></i></a>
-                            <span>Site</span>
-                        </div>
-                    </div>
-
-                    <h3 class="mt-5 mb-3">Cryptography &amp; PyCryptoDome</h3>
-                    <p>Pour le chiffrement nous avons utilisé les librairies Python Cyptography pour la partie asymétrique et PyCryptoDome pour la partie symétrique.</p>
-                    <div class="links">
-                        <div class="link">
-                            <a class="d-block" href="https://pypi.org/project/cryptography/" target="_blank" rel="nofollow"><img class="svg" alt="Pypi" width="32" height="32" src="../assets/images/pypi_logo.svg"></a>
-                            <span>Cryptography</span>
-                        </div>
-
-                        <div class="link">
-                            <a class="d-block" href="https://pypi.org/project/pycryptodome/" target="_blank" rel="nofollow"><img class="svg" alt="PyPi" width="32" height="32" src="../assets/images/pypi_logo.svg"></a>
-                            <span>PyCryptoDome</span>
-                        </div>
-                    </div>
-
-                    <h3 class="mt-5 mb-3"><img class="svg" alt="Qt" width="70" height="70" src="../assets/images/qt_logo.svg"></h3>
-                    <p>Nous avons utilisé Qt, et plus précisement PyQt, pour l'interface de l'application. De mon point de vue c'est un peu plus compliqué que PyGObject mais ça reste très efficace !</p>
-                    <div class="links">
-                        <div class="link">
-                            <a class="d-block" href="https://www.riverbankcomputing.com/software/pyqt/" target="_blank" rel="nofollow"><i class="fas fa-link"></i></a>
-                            <span>Site</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <h1 class="mb-4 d-block d-sm-none server-title">Serveur</h1>
-                    <h2 class="mb-4 d-block d-sm-none">Librairies &amp; Langage</h2>
-
-                    <h3 class="mb-3">
-                        <img class="svg" alt="Python" width="70" height="70" src="../assets/images/python.svg">
-                    </h3>
-
-                    <p class="col-lg-8 offset-lg-2">Nous avons utilisé <b>Python</b>, qui est un plutôt bon langage pour des petits projets comme celui ci, mais nous étions également limité par les règles du projet.</p>
-
-                    <div class="links">
-                        <div class="link">
-                            <a class="d-block" href="https://www.python.org/" target="_blank" rel="nofollow"><i class="fas fa-link"></i></a>
-                            <span>Site</span>
-                        </div>
-                    </div>
-
-                    <h3 class="mt-5 mb-3">Cryptography &amp; PyCryptoDome</h3>
-                    <p>Pour le chiffrement nous avons utilisé les librairies Python Cyptography pour la partie asymétrique et PyCryptoDome pour la partie symétrique.</p>
-                    <div class="links">
-                        <div class="link">
-                            <a class="d-block" href="https://pypi.org/project/cryptography/" target="_blank" rel="nofollow"><img class="svg" alt="Pypi" width="32" height="32" src="../assets/images/pypi_logo.svg"></a>
-                            <span>Cryptography</span>
-                        </div>
-
-                        <div class="link">
-                            <a class="d-block" href="https://pypi.org/project/pycryptodome/p" target="_blank" rel="nofollow"><img class="svg" alt="PyPi" width="32" height="32" src="../assets/images/pypi_logo.svg"></a>
-                            <span>PyCryptoDome</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2>Qu'ai-je appris de ce projet</h2>
+            <p class="col-lg-8 offset-lg-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat consectetur lacus, vitae convallis libero hendrerit nec. Praesent euismod eget odio nec elementum. Curabitur posuere tellus in orci interdum efficitur. Vivamus dui tellus, lobortis eu leo in, congue sollicitudin magna. Sed ut enim lobortis lectus rutrum scelerisque viverra sed dui. Mauris eu feugiat ipsum. Vivamus mattis hendrerit nisl, id eleifend massa imperdiet at. Donec nec erat sit amet massa laoreet viverra ut ac sapien. Cras commodo, ligula vel fringilla ullamcorper, nisi nunc aliquam enim, ut accumsan massa ante ac turpis. Aliquam ut arcu eros. Praesent pellentesque, nibh quis semper mattis, purus nunc dictum nisl, a placerat neque augue in nisl. Donec et magna non ipsum semper cursus. Aliquam et lectus quis elit vulputate viverra a sit amet nibh. Cras dolor felis, gravida efficitur augue vel, rhoncus euismod justo.</p>
         </div>
     </div>
 </div></body></html>

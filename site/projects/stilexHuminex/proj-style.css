@@ -1,43 +1,28 @@
-#surfshark .main-image {
-    background-position: center;
+#project-wrapper #stilexHuminex .tldr-container {
+    margin-bottom: calc(-50% + 2rem);
+}
+@media (max-width: 991.98px) {
+    #project-wrapper #stilexHuminex .tldr-container {
+        margin-bottom: -3rem;
+    }
 }
 
-.style-guide {
-    background: #444;
-    padding: 2.5rem 1.5rem 7rem 1.5rem;
+.stilexHuminex-links {
     margin-top: 2rem;
-}
-
-.libraries {
-    background: #252525;
-    padding: 2rem;
-}
-#surfshark .libraries h2 {
-    margin-bottom: 1.5rem;
-}
-
-
-.libraries .links {
     display: flex;
     justify-content: center;
 }
-.libraries .links .link {
+.stilexHuminex-links .link {
     margin: 0 .75rem;
 }
-
-.libraries .links a i {
-    color: #1b1817 !important;
-    font-size: 2rem;
+.stilexHuminex-links a i {
+    color: #222 !important;
+    font-size: 3rem;
 }
-.libraries .links .link span {
+.stilexHuminex-links .link span {
     font-weight: 100;
     font-size: .9rem;
 }
-@media (max-width: 767.98px) {
-    #gamer .libraries h2 {
-        margin-bottom: 2rem;
-    }
-    .libraries .library:not(:first-child) {
-        margin-top: 2.5rem;
-    }
+.competences {
+    background-color: #444;
 }
