@@ -564,14 +564,14 @@ header .navbar .dropdown .dropdown-menu a {
     opacity: .7;
 }
 
-.slider-slide[data-project=bang] .project-illustration { background-image: url('../images/bang.jpg'); }
-.slider-slide[data-project=gravityDodge] .project-illustration { background-image: url('../images/cryptenger_alt.webp'); }
-.slider-slide[data-project=heartbeat] .project-illustration { background-image: url('../images/heartbeat.png'); }
+.slider-slide[data-project=bang] .project-illustration { background-image: url('../images/bang_banner.jpeg'); }
+.slider-slide[data-project=gravityDodge] .project-illustration { background-image: url('../images/gravityDodge_banner.png'); }
+.slider-slide[data-project=heartbeat] .project-illustration { background-image: url('../images/heartbeat_banner.png'); }
 .slider-slide[data-project=goldenOdyssey] .project-illustration { background-image: url('../images/goldenOdyssey.png'); }
 
-.slider-slide[data-project=analystesJoomla] .project-illustration { background-image: url('../images/analystesJoomla.png'); }
+.slider-slide[data-project=analystesJoomla] .project-illustration { background-image: url('../images/analystesJoomla_banner.png'); }
 .slider-slide[data-project=cryptenger] .project-illustration { background-image: url('../images/cryptenger_logo.webp'); }
-.slider-slide[data-project=stilexHuminex] .project-illustration { background-image: url('../images/stilexHuminex.jpg'); }
+.slider-slide[data-project=stilexHuminex] .project-illustration { background-image: url('../images/stilexHuminex_banner.png'); }
 
 
 /*** WEB PROJECT DETAILS ***/
@@ -818,7 +818,7 @@ header .navbar .dropdown .dropdown-menu a {
     justify-content: space-evenly;
 }
 
-.contactDiv img {
+.contactDiv > img {
     max-width: 50%;
 }
 #about p.about-desc {
@@ -827,6 +827,30 @@ header .navbar .dropdown .dropdown-menu a {
 
 #contactDivResp{
     display: none;
+}
+.nom{
+    margin-top: 0;
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 4vh;
+    font-weight: bold;
+}
+.myContact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.myContact p {
+    margin: 0;
+}
+#cv{
+    padding: 20px;
+    margin: 0;
+    background-color: #999999;
+    color: #000000;
 }
 
 @media (max-width: 767.98px) {
