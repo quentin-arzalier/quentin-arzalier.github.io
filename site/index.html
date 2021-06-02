@@ -1,4 +1,4 @@
-<!DOCTYPE ><html lang="fr"><head>
+<!DOCTYPE ><html lang="en"><head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quentin Arzalier</title>
@@ -39,6 +39,9 @@
                         <li class="nav-item active" data-menuanchor="abouts">
                             <a class="nav-link fullpage-anchor" href="#abouts">À propos</a>
                         </li>
+                        <li class="nav-item active" data-menuanchor="more">
+                            <a class="nav-link fullpage-anchor" href="#moreInfo">header.more</a>
+                        </li>
                         <li class="nav-item" data-menuanchor="devprojects">
                             <a class="nav-link fullpage-anchor" href="#devprojects">Développement de jeux</a>
                         </li>
@@ -47,10 +50,10 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="langDropdown">fr</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="langDropdown">en</a>
                             <div class="dropdown-menu" id="langDropdownMenu">
-                                <a class="dropdown-item" href="../">En</a>
-                                <a class="dropdown-item" href="">Fr</a>
+                                <a class="dropdown-item" href="">En</a>
+                                <a class="dropdown-item" href="fr">Fr</a>
                             </div>
                         </li>
                     </ul>
@@ -65,7 +68,7 @@
 
         <div id="fullpage">
             <div class="section" id="about" data-anchor="abouts">
-                <div class="container" id="firstContainer">
+                <div class="container firstContainer">
                     <p class="about-desc col-12 col-md-9 col-lg-7">Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!</p>
                     <div class="contactDiv">
                         <img src="assets/images/moi.jpg">
@@ -90,10 +93,10 @@
                                 <img src="assets/images/itch-io.png">
                             </a>
                         </div>
-                        <a href="assets/CV_Quentin_ARZALIER.pdf" id="cv">Télécharger mon CV</a>
+                        <a href="assets/CV_Quentin_ARZALIER.pdf" class="cv">Télécharger mon CV</a>
                     </div>
                 </div>
-                <div class="contactDiv" id="contactDivResp">
+                <div class="contactDiv contactDivResp">
                     <img src="assets/images/moi.jpg">
                     <p class="nom">Quentin Arzalier</p>
                     <p>Étudiant en IUT Informatique à Montpellier</p>
@@ -116,8 +119,26 @@
                             <img src="assets/images/itch-io.png">
                         </a>
                     </div>
-                    <a href="assets/CV_Quentin_ARZALIER.pdf" id="cv">Télécharger mon CV</a>
+                    <a href="assets/CV_Quentin_ARZALIER.pdf" class="cv">Télécharger mon CV</a>
                 </div>
+            </div>
+
+
+            <div class="section" id="moreInfo" data-anchor="more">
+                <div class="container firstContainer">
+                    <div class="container" id="wordcloud">
+                        <h1>Ma personnalité en quelques images</h1>
+                        <img src="assets/images/wordcloud.png" alt="wordcloud">
+                    </div>
+                    <div class="contactDiv" id="presentation">
+                        <img src="assets/images/wanderer.jpg" alt="wanderer">
+                        <p>more.pres</p>
+                    </div>
+                </div>
+                <div class="contactDiv contactDivResp">
+                    <h1>Mes Projets Informatiques</h1>
+                </div>
+
             </div>
 
 
@@ -232,8 +253,8 @@
                 <script type="application/javascript" src="assets/js/fullpage.min.js"></script>
                 <script type="application/javascript" src="assets/js/parallax.min.js"></script>
 
-                <trans id="nav-trans" value="À propos,Développement de jeux,Autres projets informatique,Le mot de la fin"></trans>
-                <trans id="base-path" value="../"></trans>
+                <trans id="nav-trans" value="À propos,header.more,Développement de jeux,Autres projets informatique,Le mot de la fin"></trans>
+                <trans id="base-path" value=""></trans>
 
                 <script type="application/javascript" src="assets/js/script.js"></script>
             </footer>

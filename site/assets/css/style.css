@@ -789,7 +789,7 @@ header .navbar .dropdown .dropdown-menu a {
 
 
 /* NEW CSS */
-.container#firstContainer{
+.container.firstContainer{
     display: flex;
     flex-direction: row;
     height: auto;
@@ -825,7 +825,7 @@ header .navbar .dropdown .dropdown-menu a {
     width: 50vw;
 }
 
-#contactDivResp{
+.contactDivResp{
     display: none;
 }
 .nom{
@@ -852,6 +852,34 @@ header .navbar .dropdown .dropdown-menu a {
     background-color: #999999;
     color: #000000;
 }
+#wordcloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#wordcloud img {
+    max-height: 70vh;
+    max-width: 70vh;
+    margin-top: 10vh;
+}
+#moreInfo div {
+    display: flex;
+}
+
+#presentation img {
+    margin: 40px 20px 10px 40px;
+    float: left;
+}
+#presentation p {
+    text-align: justify;
+    padding: 40px;
+}
+#presentation.contactDiv {
+    display: block;
+    width: 50vw;
+    margin-right: 7vw;
+}
 
 @media (max-width: 767.98px) {
     header .navbar .navbar-collapse.collapse:not(.show) {
@@ -860,14 +888,15 @@ header .navbar .dropdown .dropdown-menu a {
 }
 
 @media (max-width: 575.98px) {
-    .container#firstContainer {
-        display: none;
+    .container.firstContainer {
+        display: none !important;
     }
-    #contactDivResp{
+    .contactDivResp{
         display: flex;
         margin: 0;
         padding: 0;
         width: auto;
         background-color: #1b1817;
+        text-align: center;
     }
 }

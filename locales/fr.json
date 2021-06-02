@@ -16,6 +16,7 @@
     },
     "header": {
         "about": "À propos",
+        "more": "Plus d'informations",
         "dev_projects": "Développement de jeux",
         "other_projects": "Autres projets informatique",
         "terminal": "Le mot de la fin"
@@ -24,6 +25,9 @@
         "p_base": "../",
         "en_link": "../",
         "fr_link": ""
+    },
+    "more": {
+        "pres": "J’ai choisi l'œuvre de Caspar Friedrich pour me représenter car je trouve qu’elle correspond particulièrement bien à certains aspects de mon caractère et de ma personne. <br>Tout d’abord, la peinture représente un individu solitaire, un voyageur. Cela correspond à deux de mes caractéristiques : L’indépendance et la curiosité. L’exploration de nouveaux domaines fait partie entière de mes principes, tout comme ma faculté à pouvoir évoluer seul fait partie de mes qualités. <br>Ensuite, on aperçoit que l’homme de la peinture se trouve au sommet d’une masse rocheuse, au-dessus des nuages. Cela représente mes objectifs de me surpasser et de toujours viser le sommet peu importe les défis que l’on m’oppose. <br>Enfin, le voyageur se trouve face à une grande zone inexplorée, malgré le fait qu’il soit monté jusqu’ici. Cela représente l’océan de possibilité qu’est l’avenir, et que peu importe le chemin que j’ai pu prendre jusqu’ici, peu importe les découvertes que j’ai fait le long de ma vie, il me reste encore beaucoup à apprendre et je suis prêt à aller jusqu’au bout des choses"
     },
     "main": {
         "intro": "Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!",

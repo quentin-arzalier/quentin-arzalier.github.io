@@ -1,5 +1,5 @@
 {
-    "curr_lang": "fr",
+    "curr_lang": "en",
     "general": {
         "website": "Site",
         "description": "Salutations, je suis Quentin, et bienvenue sur mon ePortFolio recensant mes divers projets!",
@@ -21,9 +21,9 @@
         "terminal": "Le mot de la fin"
     },
     "links": {
-        "p_base": "../",
-        "en_link": "../",
-        "fr_link": ""
+        "p_base": "",
+        "en_link": "",
+        "fr_link": "fr"
     },
     "main": {
         "intro": "Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!",

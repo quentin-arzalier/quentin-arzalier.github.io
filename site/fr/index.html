@@ -39,6 +39,9 @@
                         <li class="nav-item active" data-menuanchor="abouts">
                             <a class="nav-link fullpage-anchor" href="#abouts">À propos</a>
                         </li>
+                        <li class="nav-item active" data-menuanchor="more">
+                            <a class="nav-link fullpage-anchor" href="#moreInfo">Plus d'informations</a>
+                        </li>
                         <li class="nav-item" data-menuanchor="devprojects">
                             <a class="nav-link fullpage-anchor" href="#devprojects">Développement de jeux</a>
                         </li>
@@ -65,7 +68,7 @@
 
         <div id="fullpage">
             <div class="section" id="about" data-anchor="abouts">
-                <div class="container" id="firstContainer">
+                <div class="container firstContainer">
                     <p class="about-desc col-12 col-md-9 col-lg-7">Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!</p>
                     <div class="contactDiv">
                         <img src="../assets/images/moi.jpg">
@@ -90,10 +93,10 @@
                                 <img src="../assets/images/itch-io.png">
                             </a>
                         </div>
-                        <a href="assets/CV_Quentin_ARZALIER.pdf" id="cv">Télécharger mon CV</a>
+                        <a href="assets/CV_Quentin_ARZALIER.pdf" class="cv">Télécharger mon CV</a>
                     </div>
                 </div>
-                <div class="contactDiv" id="contactDivResp">
+                <div class="contactDiv contactDivResp">
                     <img src="../assets/images/moi.jpg">
                     <p class="nom">Quentin Arzalier</p>
                     <p>Étudiant en IUT Informatique à Montpellier</p>
@@ -116,8 +119,26 @@
                             <img src="../assets/images/itch-io.png">
                         </a>
                     </div>
-                    <a href="assets/CV_Quentin_ARZALIER.pdf" id="cv">Télécharger mon CV</a>
+                    <a href="assets/CV_Quentin_ARZALIER.pdf" class="cv">Télécharger mon CV</a>
                 </div>
+            </div>
+
+
+            <div class="section" id="moreInfo" data-anchor="more">
+                <div class="container firstContainer">
+                    <div class="container" id="wordcloud">
+                        <h1>Ma personnalité en quelques images</h1>
+                        <img src="../assets/images/wordcloud.png" alt="wordcloud">
+                    </div>
+                    <div class="contactDiv" id="presentation">
+                        <img src="../assets/images/wanderer.jpg" alt="wanderer">
+                        <p>J’ai choisi l'œuvre de Caspar Friedrich pour me représenter car je trouve qu’elle correspond particulièrement bien à certains aspects de mon caractère et de ma personne. <br>Tout d’abord, la peinture représente un individu solitaire, un voyageur. Cela correspond à deux de mes caractéristiques : L’indépendance et la curiosité. L’exploration de nouveaux domaines fait partie entière de mes principes, tout comme ma faculté à pouvoir évoluer seul fait partie de mes qualités. <br>Ensuite, on aperçoit que l’homme de la peinture se trouve au sommet d’une masse rocheuse, au-dessus des nuages. Cela représente mes objectifs de me surpasser et de toujours viser le sommet peu importe les défis que l’on m’oppose. <br>Enfin, le voyageur se trouve face à une grande zone inexplorée, malgré le fait qu’il soit monté jusqu’ici. Cela représente l’océan de possibilité qu’est l’avenir, et que peu importe le chemin que j’ai pu prendre jusqu’ici, peu importe les découvertes que j’ai fait le long de ma vie, il me reste encore beaucoup à apprendre et je suis prêt à aller jusqu’au bout des choses</p>
+                    </div>
+                </div>
+                <div class="contactDiv contactDivResp">
+                    <h1>Mes Projets Informatiques</h1>
+                </div>
+
             </div>
 
 
@@ -232,7 +253,7 @@
                 <script type="application/javascript" src="../assets/js/fullpage.min.js"></script>
                 <script type="application/javascript" src="../assets/js/parallax.min.js"></script>
 
-                <trans id="nav-trans" value="À propos,Développement de jeux,Autres projets informatique,Le mot de la fin"></trans>
+                <trans id="nav-trans" value="À propos,Plus d'informations,Développement de jeux,Autres projets informatique,Le mot de la fin"></trans>
                 <trans id="base-path" value="../"></trans>
 
                 <script type="application/javascript" src="../assets/js/script.js"></script>

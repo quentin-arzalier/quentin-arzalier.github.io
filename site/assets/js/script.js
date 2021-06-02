@@ -70,7 +70,7 @@ window.addEventListener('resize', (e) => {
 new fullpage('#fullpage', {
     menu: "#menu",
     controlArrows: true,
-    anchors: ['abouts', 'devprojects', 'other', 'terminal'],
+    anchors: ['abouts', 'more', 'devprojects', 'other', 'terminal'],
     navigationTooltips: navTooltips,
     navigation: true,
     dragAndMove: true,

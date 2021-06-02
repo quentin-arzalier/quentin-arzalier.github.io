@@ -41,6 +41,9 @@
                         <li class="nav-item active" data-menuanchor="abouts">
                             <a class="nav-link fullpage-anchor" href="#abouts" data-t>header.about</a>
                         </li>
+                        <li class="nav-item active" data-menuanchor="more">
+                            <a class="nav-link fullpage-anchor" href="#moreInfo" data-t>header.more</a>
+                        </li>
                         <li class="nav-item" data-menuanchor="devprojects">
                             <a class="nav-link fullpage-anchor" href="#devprojects" data-t>header.dev_projects</a>
                         </li>
@@ -67,7 +70,7 @@
 
         <div id="fullpage">
             <div class="section" id="about" data-anchor="abouts">
-                <div class="container" id="firstContainer">
+                <div class="container firstContainer">
                     <p class="about-desc col-12 col-md-9 col-lg-7" data-t>main.intro</p>
                     <div class="contactDiv">
                         <img src="assets/images/moi.jpg">
@@ -92,10 +95,10 @@
                                 <img src="assets/images/itch-io.png">
                             </a>
                         </div>
-                        <a href="assets/CV_Quentin_ARZALIER.pdf" id="cv">Télécharger mon CV</a>
+                        <a href="assets/CV_Quentin_ARZALIER.pdf" class="cv">Télécharger mon CV</a>
                     </div>
                 </div>
-                <div class="contactDiv" id="contactDivResp">
+                <div class="contactDiv contactDivResp">
                     <img src="assets/images/moi.jpg">
                     <p class="nom">Quentin Arzalier</p>
                     <p>Étudiant en IUT Informatique à Montpellier</p>
@@ -118,8 +121,26 @@
                             <img src="assets/images/itch-io.png">
                         </a>
                     </div>
-                    <a href="assets/CV_Quentin_ARZALIER.pdf" id="cv">Télécharger mon CV</a>
+                    <a href="assets/CV_Quentin_ARZALIER.pdf" class="cv">Télécharger mon CV</a>
                 </div>
+            </div>
+
+
+            <div class="section" id="moreInfo" data-anchor="more">
+                <div class="container firstContainer">
+                    <div class="container" id="wordcloud">
+                        <h1>Ma personnalité en quelques images</h1>
+                        <img src="assets/images/wordcloud.png" alt="wordcloud">
+                    </div>
+                    <div class="contactDiv" id="presentation">
+                        <img src="assets/images/wanderer.jpg" alt="wanderer">
+                        <p data-t>more.pres</p>
+                    </div>
+                </div>
+                <div class="contactDiv contactDivResp">
+                    <h1>Mes Projets Informatiques</h1>
+                </div>
+
             </div>
 
 
@@ -234,7 +255,7 @@
                 <script type="application/javascript" src="assets/js/fullpage.min.js"></script>
                 <script type="application/javascript" src="assets/js/parallax.min.js"></script>
 
-                <trans id="nav-trans" data-attr-t data-attr-t-interpolate value-t="{{header.about}},{{header.dev_projects}},{{header.other_projects}},{{header.terminal}}"></trans>
+                <trans id="nav-trans" data-attr-t data-attr-t-interpolate value-t="{{header.about}},{{header.more}},{{header.dev_projects}},{{header.other_projects}},{{header.terminal}}"></trans>
                 <trans id="base-path" data-attr-t data-attr-t-interpolate value-t="{{links.p_base}}"></trans>
 
                 <script type="application/javascript" src="assets/js/script.js"></script>
