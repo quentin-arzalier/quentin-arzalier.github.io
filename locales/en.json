@@ -16,6 +16,7 @@
     },
     "header": {
         "about": "À propos",
+        "more": "Plus d'informations",
         "dev_projects": "Développement de jeux",
         "other_projects": "Autres projets informatique",
         "terminal": "Le mot de la fin"
@@ -25,6 +26,79 @@
         "en_link": "",
         "fr_link": "fr"
     },
+    "more": {
+        "pres": "J’ai choisi l'œuvre de Caspar Friedrich pour me représenter car je trouve qu’elle correspond particulièrement bien à certains aspects de mon caractère et de ma personne. <br>Tout d’abord, la peinture représente un individu solitaire, un voyageur. Cela correspond à deux de mes caractéristiques : L’indépendance et la curiosité. L’exploration de nouveaux domaines fait partie entière de mes principes, tout comme ma faculté à pouvoir évoluer seul fait partie de mes qualités. <br>Ensuite, on aperçoit que l’homme de la peinture se trouve au sommet d’une masse rocheuse, au-dessus des nuages. Cela représente mes objectifs de me surpasser et de toujours viser le sommet peu importe les défis que l’on m’oppose. <br>Enfin, le voyageur se trouve face à une grande zone inexplorée, malgré le fait qu’il soit monté jusqu’ici. Cela représente l’océan de possibilité qu’est l’avenir, et que peu importe le chemin que j’ai pu prendre jusqu’ici, peu importe les découvertes que j’ai fait le long de ma vie, il me reste encore beaucoup à apprendre et je suis prêt à aller jusqu’au bout des choses"
+    },
+    "main": {
+        "intro": "Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!",
+        "function": "Étudiant à l'IUT Informatique de Montpellier",
+        "author": "Le template de ce site a été créé par Adrien Luitot, et est Open Source.",
+        "copyright": "Il est sous licence MIT et disponible sur <span style=\"color: #f69e7b;\">[<a href=\"https://github.com/adrienluitot/personal-website\" rel=\"nofollow\" target=\"_blank\">github</a>](<a href=\"https://github.com/adrienluitot/personal-website\" rel=\"nofollow\" target=\"_blank\">https://github.com/adrienluitot/adrienluitot.github.io</a>)</span>.",
+        "contact": "Envie de me contacter ? Pas de soucis, envoyez-moi un e-mail : <span style=\"color: #e84a5f;font-style: italic;\">*contact[at]adrien.luitot.fr*</span>"
+    },
+    "projects": {
+        "close_project": "Fermer",
+        "analystesJoomla": {
+            "short_desc": "Un site créé à l'aide de Joomla",
+            "tldr": "Ce site a été créé à l'aide de Joomla et de la méthode AGILE dans le cadre d'un projet de second semestre de l'IUT",
+            "whatidid": "Le projet tuteuré de second semestre à l'IUT nous a fait travailler en groupes de 7 dans l'optique de créer un site pour un client demandant un portail pour ses étudiants en licence pro. À l'aide de la méthode AGILE, d'une utilisation intensive de Trello et de Joomla, nous continuons de valider les stories les unes après les autres.",
+            "general_idea": "J'ai appris de nombreuses choses lors de ce projet. Les compétences suivantes on été acquises ou renforcées lors de la création de ce site :<br> Le travail d'équipe : <br> Puisque le travail devait être réalisé en groupe de 7, nous avons du utiliser des méthodes efficace de travail. C'est la méthode AGILE mêlée à la plateforme Trello qui nous ont aidé à cela. Je sais désormais comment fonctionne cette méthode, et je saurai m'en servir dans le futur. <br> L'utilisation d'un CMS :<br> Le CMS que mon équipe a choisi, Joomla, n'est pas tout récent. Il possède plein de problèmes, mais nous avons tout de même réussi à réaliser un projet de qualité avec. Et puisque qui peut le plus peut le moins, je suis confiant en mes capacités d'utiliser d'autres CMS plus récents, ergonomiques et efficaces.",
+            "joomla_desc": "C'est à l'aide du CMS Joomla que nous développons le site."
+        },
+        "bang": {
+            "short_desc": "Un jeu de société basé sur des cartes",
+            "tldr": "Bang est un jeu de cartes jouables de 4 à 7 joueurs. Des amis et moi avons du écrire la logique du jeu en java.",
+            "whatwedid": "Le sujet du projet était de compléter le programme du jeu Bang. On nous a donné une base de fonctionnement, une interface et quelques méthodes servant d'exemple. 2 amis et moi avons donc séparé les tâches en différentes catégories et nous nous les sommes réparties. Nous avons donc utilisé nos compétences en Java afin de compléter la logique du jeu, jusqu'à obtenir un Bang! complètement fonctionnel, bien que restant plus une démo de fonctionnalités qu'un véritable jeu. En effet, l'interface ne permet pas pour l'instant de jouer, chacun voyant les cartes des autres.",
+            "general_idea": "Lors de ce projet, j'ai pu mettre au point et utiliser diverses compétences : <br> Le travail d'équipe : <br> Nous avons utilisé la plateforme Trello pour obtenir une fluidité de travail et de partage des tâches très efficace. Je sais désormais bien me servir de l'application. <br> Les spécificités du langage Java : <br> Ce projet m'a permis d'approfondir mes connaissances quant aux fonctionnalités de Java. Classes abstraites, Enumerations ou bien Interfaces ont été utilisés lors de ce projet. "
+        },
+        "cryptenger": {
+            "short_desc": "Une messagerie chiffrée",
+            "tldr": "Cryptenger est une messagerie chiffrée et légère. Son but est d'être une jolie application avec un serveur que tout le monde peut initialiser facilement.",
+            "whatwedid": "Ce projet a été réalisé au cœur de la matière ISN, en terminale. Nous étions 3 amis, et nous voulions faire une messagerie complètement sécurisée, mais aussi facile d'utilisation que Discord ou WhatsApp. Pour la partie sécurisée nous voulions chiffrer les messages, mais vu qu'il est impossible de savoir si on est espionné par le serveur nous avons décidé de laisser la possibilité aux personnes d'initialiser leurs propres serveurs. Pour chiffrer les messages nous initialisons la connexion avec un chiffrement asymétrique puis échangeons la clé symétrique qui chiffrera et déchiffrera les messages suivants.",
+            "client_t": "Client",
+            "server_t": "Serveur",
+            "white": "Blanc",
+            "dark_grey": "Gris Foncé",
+            "darky_grey": "Gris Sombre",
+            "python_desc": "Nous avons utilisé <b>Python</b>, qui est un plutôt bon langage pour des petits projets comme celui ci, mais nous étions également limité par les règles du projet.",
+            "crypt_desc": "Pour le chiffrement nous avons utilisé les librairies Python Cyptography pour la partie asymétrique et PyCryptoDome pour la partie symétrique.",
+            "client": {
+                "about": "Le client est très simple, il y a un fenêtre de connexion qui renvoie vers l'interface du serveur. Le serveur est divisé en divers canaux de discussions, créés par l'hôte du serveur.",
+                "style_guide": "Nous avons tous donné nos idées pour la charte graphique générale, et le logo a été fait par <a href=\"https://www.artstation.com/quentin_costagliola\" target=\"_blank\" rel=\"nofollow\">Quentin</a>. C'est également lui qui s'est occupé de la partie interface",
+                "qt_desc": "Nous avons utilisé Qt, et plus précisément PyQt, pour l'interface de l'application."
+            },
+            "server": {
+                "about": "Le serveur est géré via un script python et configuré grâce à un fichier JSON. Une amélioration possible serait de faire un script plus proche des commandes Unix pour le gérer.",
+                "style_guide": "C'est un script donc il n'y pas d'interface si ce n'est celle de votre terminal."
+            },
+            "general_idea": "Puisque je me suis occupé en grande partie de l'aspect réseau de l'application, je n'ai pas obtenu énormément de compétences en chiffrage ou en UI. Cependant, j'ai pu obtenir de solides bases quant au protocole de connexion TCP et aux sockets python. Je compte aujourd'hui réutiliser ces compétences dans un premier temps pour améliorer le projet Bang!, qui n'est pas encore prêt à être joué à plusieurs."
+        },
+        "gravityDodge": {
+            "short_desc": "Un jeu mobile Free to Play",
+            "tldr": "Gravity Dodge est mon premier projet Unity, j'ai expérimenté avec, et je compte le publier un jour.",
+            "whatidid": "Ce projet fut mes premier pas avec Unity 3D. J'ai pu créer mes premiers modèles 3D, designer l'environnement du joueur, l'interface... Il ne s'agit encore que d'un prototype, qui ne verra pas le jour sous peu. Bien que j'aie déjà programmé le système de gameplay en gros, il manque encore plein d'éléments au jeu pour en faire quelque chose de jouable et d'appréciable.",
+            "general_idea": "J'ai donc obtenu mes premières compétences en Unity 3D et en C# grâce à ce projet. J'ai eu l'occasion de rédiger différents scripts, de jouer avec les différentes propriétés du moteur physique d'Unity, de comprendre les types d'objets et leur méthodes associées... De plus, j'ai développé des compétences relativement basiques sur Blender après avoir réalisé les modèles d'un chariot, d'un missile et du logo du jeu. Enfin, j'ai expérimenté la création de shaders afin de rendre le jeu plus propre."
+        },
+        "heartbeat": {
+            "short_desc": "Une extension pour le jeu Steam Hacknet troisième lauréat d'un concours",
+            "tldr": "HeartBeat est un mod pour le jeu Hacknet développé dans le cadre d'un concours de développement d'extensions : HackerJam V.2",
+            "whatwedid": "J'avais déjà participé à la première HackerJam avec un ami de la 4e, et j'ai décidé de le recontacter pour ce nouveau défi. Nous avons donc, pendant un peu moins d'un mois, travaillé sur du XML, mais surtout sur beaucoup de game design. Heartbeat est une extension qui se vaut plus centrée sur l'histoire et le développement de personnage que sur une grande difficulté. Nous avons donc utilisé des méthodes intéressantes afin de rendre notre extension la plus unique possible. Elle a obtenu le 3e prix du concours. J'ai également monté un trailer pour l'extension :",
+            "general_idea": "Les compétences acquises lors du développement de HeartBeat sont plutôt abstraites. L'extension n'étais pas compliquée à créer sur un plan technique, puisque le support des mods Hacknet est relativement aisé à utiliser. J'ai surtout développé des compétences de storyTelling et de montage à l'aide du logiciel vidéoPad."
+        },
+        "goldenOdyssey": {
+            "short_desc": "Un jeu Unity gagnant de la 5e Code Game Jam",
+            "tldr": "The Golden Odyssey et un jeu 3D mêlant exploration à la première personne, puzzle, plateforming et voyage dans l'espace. Il a été créé en trois jours.",
+            "whatwedid": "Un groupe formé de 5 amis de l'IUT et moi nous sommes inscrits à la 5e édition de la Code Game Jam, un concours de développement de jeu vidéo dans un créneau très sérré. Nous avons donc utilisé Unity 3D et Blender afin de créer un jeu de qualité suivant le thème \"Chasse aux trésor\". Nous avons donc mêlé exploration de l'espace et puzzles afin d'obtenir un jeu collant au sujet. The Golden Odyssey a donc obtenu le prix du public ainsi que le prix du Jury, nous octroyant la place de vainqueurs de l'évènement.",
+            "general_idea": "Puisque le travail était réalisé en groupe, les tâches étaient divisées. Quelqu'un s'occupait du Level Design, quelqu'un des textures... Puisque la musique a été réalisé par un tiers pour l'occasion de la Code Game Jam, il n'y avait plus qu'à se focaliser sur le gameplay. J'ai donc programmé les 4 outils du joueur (une boussole, un grappin, un laser et un rayon activateur). Je me suis aussi occupé de l'interface de ce dernier, ainsi que de quelques modèles 3D, tels que celui du vaisseau, inspiré d'Ulysse 31. J'ai également appris à survivre 3 jours sans dormir à cause des conditions de l'évènement."
+        },
+        "stilexHuminex": {
+            "short_desc": "Un site internet vendant un produit fictif",
+            "tldr": "Stilex Huminex est un site réalisé à la main entièrement en HTML CSS par une équipe de 5 individus.",
+            "whatwedid": "Le projet HTML CSS du premier semestre à l'IUT nous demandait de créer un site internet faisant la promotion d'un produit fictif. Nous avons choisi la pile corticale de la série de livre et de films \"Altered Carbon\". Nous avons donc utilisé nos connaissances en HTML et en CSS afin de faire la promotion du produit de la façon la plus esthétique qui soit. J'ai demandé à ma soeur de nous fournir un code couleur, et nous avons réalisé le thème du site avec. J'ai donc créé la majorité du thème du site et rédigé la grande majorité du texte afin de rendre l'histoire de l'entreprise fictive Stilex-Huminex d'autant plus intriguante.",
+            "general_idea": "Ce projet HTML CSS m'a permis d'approfondir mes compétences dans ces domaines, notamment l'utilisation de flexbox et des différentes balises. Le site est également totalement responsive, et utilise de nombreuses fonctionnalités. Je me suis également servi de ces compétences afin d'utiliser la template pour créer ce portfolio."
+        }
+    }
+}
     "main": {
         "intro": "Bonjour à tous, et bienvenue sur mon ePortFolio. Vous pourrez trouver sur cette page diverses informations sur mes projets et ma personne. Bonne visite!",
         "function": "Étudiant à l'IUT Informatique de Montpellier",
