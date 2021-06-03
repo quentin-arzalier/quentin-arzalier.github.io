@@ -891,6 +891,14 @@ header .navbar .dropdown .dropdown-menu a {
     align-items: center;
     justify-content: space-evenly;
 }
+.annexe img {
+    margin: 20px;
+    max-height: 360px;
+}
+.annexe iframe {
+    min-height: 360px;
+    min-width: 640px;
+}
 
 @media (max-width: 767.98px) {
     header .navbar .navbar-collapse.collapse:not(.show) {
