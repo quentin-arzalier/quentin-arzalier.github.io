@@ -894,6 +894,7 @@ header .navbar .dropdown .dropdown-menu a {
 .annexe img {
     margin: 20px;
     max-height: 360px;
+    max-width: 30vw;
 }
 .annexe iframe {
     min-height: 360px;
@@ -903,6 +904,12 @@ header .navbar .dropdown .dropdown-menu a {
 @media (max-width: 767.98px) {
     header .navbar .navbar-collapse.collapse:not(.show) {
         display: none;
+    }
+    .annexe div {
+        flex-direction: column;
+    }
+    .annexe img {
+        max-width: 90vw;
     }
 }
 
