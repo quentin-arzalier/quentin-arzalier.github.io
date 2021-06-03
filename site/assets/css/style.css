@@ -884,6 +884,8 @@ header .navbar .dropdown .dropdown-menu a {
 }
 .annexe {
     background-color: #252525;
+    display: flex;
+    flex-direction: column;
 }
 .annexe div {
     display: flex;
