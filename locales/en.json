@@ -83,7 +83,9 @@
             "short_desc": "Une extension pour le jeu Steam Hacknet troisième lauréat d'un concours",
             "tldr": "HeartBeat est un mod pour le jeu Hacknet développé dans le cadre d'un concours de développement d'extensions : HackerJam V.2",
             "whatwedid": "J'avais déjà participé à la première HackerJam avec un ami de la 4e, et j'ai décidé de le recontacter pour ce nouveau défi. Nous avons donc, pendant un peu moins d'un mois, travaillé sur du XML, mais surtout sur beaucoup de game design. Heartbeat est une extension qui se vaut plus centrée sur l'histoire et le développement de personnage que sur une grande difficulté. Nous avons donc utilisé des méthodes intéressantes afin de rendre notre extension la plus unique possible. Elle a obtenu le 3e prix du concours. J'ai également monté un trailer pour l'extension :",
-            "general_idea": "Les compétences acquises lors du développement de HeartBeat sont plutôt abstraites. L'extension n'étais pas compliquée à créer sur un plan technique, puisque le support des mods Hacknet est relativement aisé à utiliser. J'ai surtout développé des compétences de storyTelling et de montage à l'aide du logiciel vidéoPad."
+            "general_idea": "Les compétences acquises lors du développement de HeartBeat sont plutôt abstraites. L'extension n'étais pas compliquée à créer sur un plan technique, puisque le support des mods Hacknet est relativement aisé à utiliser. J'ai surtout développé des compétences de storyTelling et de montage à l'aide du logiciel vidéoPad.",
+            "commentary": "Developper commentary :",
+            "video": "OGERkwHc6uc"
         },
         "goldenOdyssey": {
             "short_desc": "Un jeu Unity gagnant de la 5e Code Game Jam",
