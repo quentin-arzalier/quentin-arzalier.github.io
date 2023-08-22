@@ -1,11 +1,91 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <title>Chargement</title>
-        <meta http-equiv = "refresh" content = "0; url = site/fr/index.html" />
-        <meta name="description" content="Salutations, je suis Quentin, et bienvenue sur mon ePortFolio recensant mes divers projets!">
-    </head>
-    <body>
-        <p>Chargement...</p>
-    </body>
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./resources/styles.css">
+    <script type="text/javascript" src="./scripts/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="./scripts/Constants.js"></script>
+    <script type="text/javascript" src="./scripts/AgencyOS.js"></script>
+    <script src="https://kit.fontawesome.com/fcd7e17e10.js" crossorigin="anonymous"></script>
+    <title>Mon site de fou!</title>
+</head>
+<body>
+    <div id="boot-screen">
+
+    </div>
+    <main style="display: none">
+        <section id="main-menu">
+            <div class="main-title">
+                AVIS DE RECHERCHE N°Q4RZL13R
+            </div>
+            <div class="card-list">
+                <div class="card-item" id="id-card" data-menu="menu-profile">
+                    <div class="card-body">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="card-desc">
+                        PROFIL
+                    </div>
+                </div>
+                <div class="card-item" id="pj-card" data-menu="menu-projects">
+                    <div class="card-body">
+
+                    </div>
+                    <div class="card-desc">
+                        PROJETS
+                    </div>
+                </div>
+                <div class="card-item" id="xp-card" data-menu="menu-experience">
+                    <div class="card-body">
+
+                    </div>
+                    <div class="card-desc">
+                        EXPERIENCES
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu-profile" style="display: none">
+            <div class="main-title">
+                PROFIL
+            </div>
+        </section>
+        <section id="menu-projects" style="display: none">
+            <div class="main-title">
+                PROJETS
+            </div>
+            <div class="card-list">
+                <div class="card-item" id="id-card" data-menu="menu-profile">
+                    <div class="card-body">
+                    </div>
+                    <div class="card-desc">
+                        PROFIL
+                    </div>
+                </div>
+                <div class="card-item" id="pj-card" data-menu="menu-projects">
+                    <div class="card-body">
+
+                    </div>
+                    <div class="card-desc">
+                        PROJETS
+                    </div>
+                </div>
+                <div class="card-item" id="xp-card" data-menu="menu-experience">
+                    <div class="card-body">
+
+                    </div>
+                    <div class="card-desc">
+                        EXPERIENCES
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu-experiences" style="display: none">
+            <div class="main-title">
+                EXPERIENCES
+            </div>
+        </section>
+    </main>
+</body>
 </html>
