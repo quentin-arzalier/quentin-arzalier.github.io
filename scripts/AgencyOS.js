@@ -1,15 +1,15 @@
-class AgencyOS {
+/*class AgencyOS {
 
     static Instance = this;
 
     constructor() {
         this.initialTexts = {};
-        this.cards = document.querySelectorAll(".card-item");
+        this.cards = ;
         this.boot();
     }
 
     boot() {
-        let scr = $("#boot-screen")[0];
+        let scr = document.getElementById("boot-screen");
         console.log(scr);
         let that = this;
         let nbLine = 0;
@@ -64,8 +64,23 @@ class AgencyOS {
             }
         })
     }
+}*/
+
+function curriedCardHandler(allCards, card){
+    return e => {
+        console.log("wesh");
+        e.preventDefault();
+        card.classList.add("selected");
+        allCards.filter(c => c !== card).forEach(c => c.classList.add("exit"));
+        setTimeout(() => {
+            //window.location.replace(card.dataset["href"]);
+        }, 1000);
+    }
 }
 
-$(() => {
-    new AgencyOS();
-})
+document.addEventListener("DOMContentLoaded", ev => {
+    let allCards = Array.from(document.querySelectorAll(".card-item"));
+    allCards.forEach(card => {
+        card.onclick = curriedCardHandler(allCards, card)
+    });
+});
